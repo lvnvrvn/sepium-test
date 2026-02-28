@@ -145,7 +145,7 @@ body {
 
 .card__materials__block {
   width: 315px;
-  margin: 8px 0 20px;
+  margin: 13px 0 24px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,7 +223,7 @@ body {
   font-weight: 600;
   font-size: 22px;
   color: #32312f;
-  margin: 3px 0;
+  margin: 5px 0px;
 }
 
 .card__materials__price-subtext {
