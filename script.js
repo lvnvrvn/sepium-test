@@ -3,11 +3,14 @@ const swiper = new Swiper(".swiper", {
   loop: true,
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
   navigation: {
     nextEl: ".card__slider__arrow-right",
     prevEl: ".card__slider__arrow-left",
   },
+
+  autoplay: window.innerWidth < 768 ? { delay: 3000 } : false,
 });
 
 const materialVarients = document.querySelectorAll(".card__materials__variant");
